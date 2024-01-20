@@ -141,7 +141,7 @@
   max-width: 100%;
 }
 .waiting__block-indent-description {
-  margin-top: 33px;
+  padding-top: 33px;
 }
 
 /* optimization section */
@@ -297,7 +297,7 @@
     width: 240px;
   }
   .waiting__block-indent-description {
-    margin-top: 20px;
+    padding-top: 20px;
   }
 
   /* optimization section */
@@ -381,7 +381,7 @@
     margin-bottom: 0px;
   }
   .waiting__block-indent-description {
-    margin-top: 15px;
+    padding-top: 15px;
   }
 
   /* optimization section */
