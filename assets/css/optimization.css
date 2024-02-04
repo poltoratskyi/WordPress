@@ -1,0 +1,36 @@
+/* optimization section */
+
+.container_optimization-wrapper {
+  padding: 100px 0 100px 0;
+}
+
+.global-title_optimization {
+  color: #299cbd;
+  margin-bottom: 25px;
+}
+
+.optimization__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.optimization__content-item {
+  width: 45%;
+}
+
+.optimization__content-item-img {
+  max-width: 100%;
+}
+
+.optimization__content-description {
+  color: #4a4a4a;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 22px;
+  width: 45%;
+}
+
+.optimization__content-description-label {
+  font-weight: 700;
+}

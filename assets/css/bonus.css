@@ -1,0 +1,28 @@
+/* bonus section */
+
+.bonus {
+  background-color: #efefef;
+}
+
+.container_bonus-wrapper {
+  padding: 100px 0px;
+}
+
+.bonus__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bonus__conten-item-gift {
+  max-width: 100%;
+}
+
+.bonus__content-description {
+  color: #252525;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 43px;
+  text-align: center;
+  margin: 40px 0px 40px;
+}

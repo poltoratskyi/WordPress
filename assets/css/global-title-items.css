@@ -1,0 +1,18 @@
+.global-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.global-line {
+  width: 300px;
+  height: 4px;
+  background-color: #f9bf3b;
+}
+
+.global-subtitle {
+  font-size: 23px;
+  font-weight: 400;
+  text-align: center;
+}

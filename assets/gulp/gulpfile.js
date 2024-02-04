@@ -7,13 +7,13 @@ const htmlmin = require("gulp-htmlmin");
 const cleanCSS = require("gulp-clean-css");
 const autoprefixer = require("gulp-autoprefixer");
 
-/* function scripts() {
-  return src([""])
+function scripts() {
+  return src(["../js/index.js"])
     .pipe(uglify())
-    .pipe(concat(""))
-    .pipe(dest(""))
+    .pipe(concat("index.min.js"))
+    .pipe(dest("../../dist/assets/js"))
     .pipe(browserSync.stream());
-} */
+}
 
 function styles() {
   return src(["../css/reset.css", "../css/index.css"])
@@ -47,17 +47,29 @@ function browsersync() {
 
 function watching() {
   watch(["../../index.html"], htmlMin).on("change", browserSync.reload);
-  watch(["../css/index.css"], styles).on("change", browserSync.reload);
-  /* watch([""], scripts); */
+  watch(
+    [
+      "../css/index.css",
+      "../css/header.css",
+      "../css/waiting.css",
+      "../css/optimization.css",
+      "../css/finish.css",
+      "../css/bonus.css",
+      "../css/time.css",
+      "../css/footer.css",
+      "../css/media.css",
+      "../css/global-button.css",
+      "../css/global-container.css",
+      "../css/global-title-items.css",
+      "../css/modal.css",
+    ],
+    styles
+  ).on("change", browserSync.reload);
+  watch(["../js/index.js"], scripts);
 }
 
-/* exports.scripts = scripts; */
+exports.scripts = scripts;
 exports.browsersync = browsersync;
 exports.watching = watching;
 
-exports.default = parallel(
-  htmlMin,
-  styles,
-  browsersync,
-  watching /* scripts */
-);
+exports.default = parallel(htmlMin, styles, browsersync, watching, scripts);

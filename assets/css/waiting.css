@@ -1,0 +1,51 @@
+/* waiting section */
+
+.waiting {
+  background-color: #efefef;
+}
+
+.container_waiting-wrapper {
+  padding: 100px 0 100px 0;
+}
+
+.global-title_waiting {
+  margin-bottom: 18px;
+  color: #252525;
+}
+
+.global-line_waiting {
+  margin: 0 auto;
+}
+
+.global-subtitle_waiting {
+  margin: 40px 0px;
+  color: #4a4a4a;
+}
+
+.waiting__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.waiting__content-item {
+  text-align: center;
+  color: #4a4a4a;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.waiting__content-item_first,
+.waiting__content-item_second,
+.waiting__content-item_third {
+  width: 339px;
+}
+
+.waiting__content-item-image {
+  max-width: 100%;
+}
+
+.waiting__content-item-description {
+  margin-top: 33px;
+}
