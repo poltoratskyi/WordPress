@@ -7,17 +7,17 @@
     <title>WordPress</title>
 
     <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
       rel="shorcut icon"
       href="assets/icons/fav/favicon.ico"
       type="indent-image/x-icon"
     />
 
     <link rel="stylesheet" href="assets/css/reset.css" />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
 
     <link rel="stylesheet" href="assets/css/index.css" />
   </head>
@@ -26,12 +26,20 @@
     <header class="header">
       <div class="container container_header-wrapper">
         <div class="header__content">
-          <img
-            class="header__content-logo"
-            src="assets/icons/logo-min.png"
-            loading="lazy"
-            alt="Логотип"
-          />
+          <picture>
+            <source
+              srcset="assets/icons/webp/logo-min.webp"
+              type="image/webp"
+            />
+
+            <img
+              class="header__content-logo"
+              src="assets/icons/logo-min.png"
+              loading="lazy"
+              alt="icons"
+              type="image/png"
+            />
+          </picture>
 
           <div class="header__content-intensive">WordPress интенсив</div>
 
@@ -64,12 +72,20 @@
           <a class="header__action-link" href="#to-waiting">
             <p class="header__action-text">Узнать больше об интенсиве</p>
 
-            <img
-              class="arrow-down-icon"
-              src="assets/icons/arrow_down-min.png"
-              alt="arrow_down"
-              loading="lazy"
-            />
+            <picture>
+              <source
+                srcset="assets/icons/webp/arrow_down-min.webp"
+                type="image/webp"
+              />
+
+              <img
+                class="arrow-down-icon"
+                src="assets/icons/arrow_down-min.png"
+                loading="lazy"
+                alt="icons"
+                type="image/png"
+              />
+            </picture>
           </a>
         </div>
       </div>
@@ -89,12 +105,17 @@
 
         <div class="waiting__content">
           <div class="waiting__content-item waiting__content-item_first">
-            <img
-              class="waiting__content-item-image"
-              src="assets/img/1-min.png"
-              loading="lazy"
-              alt="img"
-            />
+            <picture>
+              <source srcset="assets/img/webp/1-min.webp" type="image/webp" />
+
+              <img
+                class="waiting__content-item-image"
+                src="assets/img/1-min.png"
+                loading="lazy"
+                alt="icons"
+                type="image/png"
+              />
+            </picture>
             <p class="waiting__content-item-description">
               Всего за два бесплатных вебинара мы научим вас, как создать свой
               сайт на WordPress.
@@ -102,12 +123,17 @@
           </div>
 
           <div class="waiting__content-item waiting__content-item_second">
-            <img
-              class="waiting__content-item-image"
-              src="assets/img/2-min.png"
-              loading="lazy"
-              alt="img"
-            />
+            <picture>
+              <source srcset="assets/img/webp/2-min.webp" type="image/webp" />
+
+              <img
+                class="waiting__content-item-image"
+                src="assets/img/2-min.png"
+                loading="lazy"
+                alt="icons"
+                type="image/png"
+              />
+            </picture>
             <p class="waiting__content-item-description">
               Покажем, как правильно оптимизировать сайт и сделать его
               привлекательным для поисковых систем. Только свежая,
@@ -116,12 +142,18 @@
           </div>
 
           <div class="waiting__content-item waiting__content-item_third">
-            <img
-              class="waiting__content-item-image"
-              src="assets/img/3-min.png"
-              loading="lazy"
-              alt="img"
-            />
+            <picture>
+              <source srcset="assets/img/webp/3-min.webp" type="image/webp" />
+
+              <img
+                class="waiting__content-item-image"
+                src="assets/img/3-min.png"
+                loading="lazy"
+                alt="icons"
+                type="image/png"
+              />
+            </picture>
+
             <p class="waiting__content-item-description">
               Вы узнаете, что такое «хорошая индексация», «высокая
               посещаемость», «стабильный прирост посетителей», «ТОП по запросам»
@@ -140,12 +172,20 @@
 
         <div class="optimization__content">
           <div class="optimization__content-item">
-            <img
-              class="optimization__content-item-img"
-              src="assets/icons/optimization-min.png"
-              loading="lazy"
-              alt="optimization"
-            />
+            <picture>
+              <source
+                srcset="assets/icons/webp/optimization-min.webp"
+                type="image/webp"
+              />
+
+              <img
+                class="optimization__content-item-img"
+                src="assets/icons/optimization-min.png"
+                loading="lazy"
+                alt="optimization"
+                type="image/png"
+              />
+            </picture>
           </div>
 
           <div class="optimization__content-description">
@@ -182,13 +222,19 @@
 
         <div class="finish__content">
           <div class="finish__content-item">
-            <div class="finish__content-item-img">
+            <picture class="finish__content-item-img">
+              <source
+                srcset="assets/icons/finish/webp/1-min.webp"
+                type="image/webp"
+              />
+
               <img
                 src="assets/icons/finish/1-min.png"
                 loading="lazy"
                 alt="icons"
+                type="image/png"
               />
-            </div>
+            </picture>
 
             <div class="finish__content-item-description">
               Создать свой сайт <br />
@@ -197,13 +243,19 @@
           </div>
 
           <div class="finish__content-item">
-            <div class="finish__content-item-img">
+            <picture class="finish__content-item-img">
+              <source
+                srcset="assets/icons/finish/webp/2-min.webp"
+                type="image/webp"
+              />
+
               <img
                 src="assets/icons/finish/2-min.png"
                 loading="lazy"
                 alt="icons"
+                type="image/png"
               />
-            </div>
+            </picture>
 
             <div class="finish__content-item-description">
               Правильно его оптимизировать
@@ -211,13 +263,19 @@
           </div>
 
           <div class="finish__content-item">
-            <div class="finish__content-item-img">
+            <picture class="finish__content-item-img">
+              <source
+                srcset="assets/icons/finish/webp/3-min.webp"
+                type="image/webp"
+              />
+
               <img
                 src="assets/icons/finish/3-min.png"
                 loading="lazy"
                 alt="icons"
+                type="image/png"
               />
-            </div>
+            </picture>
 
             <div class="finish__content-item-description">
               Обеспечить ему медленный, но верный рост в ТОП
@@ -225,13 +283,19 @@
           </div>
 
           <div class="finish__content-item">
-            <div class="finish__content-item-img">
+            <picture class="finish__content-item-img">
+              <source
+                srcset="assets/icons/finish/webp/4-min.webp"
+                type="image/webp"
+              />
+
               <img
                 src="assets/icons/finish/4-min.png"
                 loading="lazy"
                 alt="icons"
+                type="image/png"
               />
-            </div>
+            </picture>
 
             <div class="finish__content-item-description">
               Достигнуть стабильного прироста посетителей
@@ -239,13 +303,19 @@
           </div>
 
           <div class="finish__content-item">
-            <div class="finish__content-item-img">
+            <picture class="finish__content-item-img">
+              <source
+                srcset="assets/icons/finish/webp/5-min.webp"
+                type="image/webp"
+              />
+
               <img
                 src="assets/icons/finish/5-min.png"
                 loading="lazy"
                 alt="icons"
+                type="image/png"
               />
-            </div>
+            </picture>
 
             <div class="finish__content-item-description">
               Получать ощутимую прибыль
@@ -258,14 +328,20 @@
     <section class="bonus">
       <div class="container container_bonus-wrapper">
         <div class="bonus__content">
-          <div class="bonus__conten-item">
+          <picture class="bonus__conten-item">
+            <source
+              srcset="assets/icons/webp/gift-min.webp"
+              type="image/webp"
+            />
+
             <img
               class="bonus__conten-item-gift"
               src="assets/icons/gift-min.png"
               loading="lazy"
               alt="gift"
+              type="image/png"
             />
-          </div>
+          </picture>
 
           <div class="bonus__content-description">
             <p>
@@ -283,14 +359,17 @@
     <section class="time">
       <div class="container container_time-wrapper">
         <div class="time__content">
-          <div class="time__content-item">
+          <picture class="time__content-item">
+            <source srcset="assets/img/webp/first-min.webp" type="image/webp" />
+
             <img
               class="time__content-item-image"
               src="assets/img/first-min.png"
               loading="lazy"
+              type="image/png"
               alt="first"
             />
-          </div>
+          </picture>
 
           <div class="time__content-description">
             <h3>Успейте записаться, количество мест ограничено!</h3>
@@ -317,11 +396,11 @@
           </div>
           © WordPress.com
 
-          <div class="validator">
-            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <div>
+            <a class="validator-link" href="#">
               <img
                 style="border: 0; width: 88px; height: 31px"
-                src="http://jigsaw.w3.org/css-validator/images/vcss"
+                src="https://jigsaw.w3.org/css-validator/images/vcss"
                 alt="clear CSS"
               />
             </a>

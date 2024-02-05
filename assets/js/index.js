@@ -36,4 +36,12 @@ window.addEventListener("DOMContentLoaded", () => {
 
     document.body.style.overflow = "auto";
   });
+
+  /* Validator css  */
+
+  const validator = document.querySelector(".validator-link");
+
+  validator.addEventListener("click", (e) => {
+    e.preventDefault();
+  });
 });
