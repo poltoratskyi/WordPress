@@ -18,7 +18,7 @@
 .header__content-intensive {
   margin: 14px 0px 40px;
   font-size: 15px;
-  font-weight: 500;
+  font-family: "Roboto Medium";
   text-transform: uppercase;
   color: #fff;
   text-align: center;
@@ -26,7 +26,7 @@
 
 .header__content-subtitle {
   font-size: 41px;
-  font-weight: 900;
+  font-family: "Roboto Black";
   text-transform: uppercase;
   color: #f9bf3b;
   text-align: center;
@@ -35,7 +35,7 @@
 
 .header__content-title {
   font-size: 80px;
-  font-weight: 900;
+  font-family: "Roboto Black";
   color: #fff;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -44,14 +44,14 @@
 
 .header__content-description {
   font-size: 21px;
-  font-weight: 300;
+  font-family: "Roboto Light";
   line-height: 28px;
   text-align: center;
   color: #fff;
 }
 
 .header__content-free {
-  font-weight: 700;
+  font-family: "Roboto Bold";
   color: #f9bf3b;
 }
 
@@ -63,7 +63,7 @@
 
 .header__action-link {
   font-size: 15px;
-  font-weight: 300;
+  font-family: "Roboto Light";
   text-transform: uppercase;
   color: #fff;
   text-align: center;

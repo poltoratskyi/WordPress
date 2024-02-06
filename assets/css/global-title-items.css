@@ -1,7 +1,7 @@
 .global-title {
   text-align: center;
   font-size: 30px;
-  font-weight: 500;
+  font-family: "Roboto Medium";
   text-transform: uppercase;
 }
 
@@ -13,6 +13,6 @@
 
 .global-subtitle {
   font-size: 23px;
-  font-weight: 400;
+  font-family: "Roboto Regular";
   text-align: center;
 }

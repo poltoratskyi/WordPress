@@ -26,11 +26,11 @@
 .optimization__content-description {
   color: #4a4a4a;
   font-size: 17px;
-  font-weight: 300;
+  font-family: "Roboto Light";
   line-height: 22px;
   width: 45%;
 }
 
 .optimization__content-description-label {
-  font-weight: 700;
+  font-family: "Roboto Bold";
 }
