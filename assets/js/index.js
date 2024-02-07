@@ -1,8 +1,38 @@
 window.addEventListener("DOMContentLoaded", () => {
-  const waiting = document.getElementById("to-waiting");
-  const headerActionLink = document.querySelector(".header__action-link");
+  /* Check webp block */
+
+  const supportsWebP = () => {
+    const elem = document.createElement("canvas");
+    if (!!(elem.getContext && elem.getContext("2d"))) {
+      return elem.toDataURL("image/webp").indexOf("data:image/webp") === 0;
+    }
+    return false;
+  };
+
+  /* header section */
+
+  if (supportsWebP()) {
+    document.querySelector(".header").style.backgroundImage =
+      "url(assets/img/webp/main_back-min.webp)";
+  } else {
+    document.querySelector(".header").style.backgroundImage =
+      "url(assets/img/main_back-min.jpg)";
+  }
+
+  /* finish section */
+
+  if (supportsWebP()) {
+    document.querySelector(".finish").style.backgroundImage =
+      "url(assets/img/webp/second_bg-min.webp)";
+  } else {
+    document.querySelector(".header").style.backgroundImage =
+      "url(assets/img/second_bg-min.jpg)";
+  }
 
   /* Smooth scroll block*/
+
+  const waiting = document.getElementById("to-waiting");
+  const headerActionLink = document.querySelector(".header__action-link");
 
   const smoothScroll = (element) => {
     element.scrollIntoView({ behavior: "smooth" });

@@ -1,9 +1,5 @@
 /* header section */
 
-.header {
-  background: url(../img/main_back-min.jpg) center center/cover no-repeat;
-}
-
 .container_header-wrapper {
   padding: 40px 80px;
 }

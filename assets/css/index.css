@@ -1,3 +1,5 @@
+@import url(./reset.css);
+
 @import url(./header.css);
 @import url(./waiting.css);
 @import url(./optimization.css);
